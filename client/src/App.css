@@ -45,6 +45,10 @@ li {
 li a {
   text-decoration: none; /* Removes the underline from links */
   color: white; /* Inherits the text color from the parent element */
+  /* padding: 0.9rem 1.75rem; */
+  border: none;
+  border-radius: 5rem;
+  margin-right: 3rem;
 }
 
 li a:hover {
@@ -59,9 +63,9 @@ li a:hover {
 
 .hero-banner-container{
   padding: 100px 40px;
-  /* background: url('') no-repeat center center/cover; */
-  background-image: linear-gradient(white, black);
-  background-color: #dcdcdc;
+  background: url('./assets/black.jpg') no-repeat center center/cover;
+  /* background-image: linear-gradient(white, black); */
+  /* background-color: #dcdcdc; */
   border-radius: 15px;
   position: relative;
   height: 300px;
@@ -80,7 +84,7 @@ li a:hover {
 
 .hero-banner-container button{
   border-radius: 20px;
-  padding: 8px 6px;
+  padding: 8px 6px;  
   background-color: white;
   width: 120px;
   color: black;
@@ -118,6 +122,7 @@ li a:hover {
     color: white;
     font-weight: 100;
     /* text-align: end; */
+    /* margin-left: 3rem; */
   }
   /* .desc h1{
     margin-bottom: 12px;
@@ -126,3 +131,35 @@ li a:hover {
     color: black;
     align-self: flex-end;
   } */
+
+  .div-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: end;
+    gap: 15px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: black;
+  }
+  .product-card{
+   cursor: pointer;
+    transform: scale(1, 1);
+    transition: transform 0.5s ease;
+   color: #324d67;
+  
+  }
+  .product-card:hover{
+    transform: scale(1.1,1.1)
+  }
+  .product-image{
+    border-radius: 15px;
+    background-color: #ebebeb;
+    transform: scale(1, 1);
+    transition: transform 0.5s ease;
+  }
+  
+  .product-name{
+    font-weight: 500;
+  }
+  

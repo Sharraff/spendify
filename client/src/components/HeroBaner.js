@@ -8,7 +8,10 @@ const HeroBanner = () => {
         <div className="desc">
           <h1>Welcome to Spendify</h1>
           <p>Manage your finances effectively with Spendify.</p>
-          {/* <button>Get Started</button> */}
+          <button>Get Started</button>
+        </div>
+        <div className="desc-1">
+          {/* <h3> we help you to easily track all your spendings</h3> */}
         </div>
       </div>
     </section>
